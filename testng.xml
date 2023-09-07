@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" data-provider-thread-count="2">
+	<listeners>
+		<listener class-name="com.demo.listeners.ListenersClass"></listener>
+		<listener class-name="com.demo.listeners.MethodInterceptor"></listener>
+	</listeners>
+  <test thread-count="2" name="Test" parallel="methods">
+    <classes>
+      <!-- <class name="com.demo.test.LoginTest"/>
+      <class name="com.demo.test.HomePage"/>-->
+      <class name="com.demo.test.OrangeHRMTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
